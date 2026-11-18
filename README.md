@@ -1,12 +1,12 @@
 # 10 SHORTS – YN Millionaire Traders (Week 3)
 
-- **shorts/** – final refined versions (v4)
-- **originals_v3/** – previous iteration
-- **originals_v2/** – first iteration
+- **shorts/** – final refined versions (v5)
+- **originals_v4/**, **originals_v3/**, **originals_v2/** – previous iterations, kept
 - Contact sheets: `sheet_a.png` (openings), `sheet_b.png` (mid frames)
 
-## v4 spec
+## v5 spec — tightened vs v4
 - 1080×1920 (9:16), 60 fps, H.264 High + AAC 192k, MP4
+- Safe-area: validated text boxes with 80px side margins, dynamic reflow; all elements (captions, chip, underline) inside frame throughout animation
 - Captions: all-caps Montserrat ExtraBold, yellow `#FFD60A` base / white keywords, mid-frame, word-by-word slide-up + fade entrance with eased settle scale, per-word timing from Whisper
 - Every caption bounding box validated at render time inside safe zones (X 60–1020, Y 500–1520); auto block-splitting + dynamic font scaling prevent any overflow
 - Motion graphics: animated title chip on open, yellow underline pop on hero keyword, alternating in-scene drift/punch-ins anchored to caption beats
@@ -24,3 +24,5 @@
 | 8 | short_8_unreleased-supreme | 19.6s |
 | 9 | short_9_perk-for-her | 16.6s |
 | 10 | short_10_studio-reveal | 19.8s |
+
+- v5 vs v4: block width cap 860px (margins ≥90px even at peak animation scale), keyword underline now sweeps in, title chip slides in with settle, graceful 0.35s end fade (video+audio)
