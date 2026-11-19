@@ -1,6 +1,6 @@
 # GTA 6 — 10 Best Viral Shorts
 Source: "Playing GTA 6 For The FIRST Time!" (Lacy) · Style benchmark: "Lacy Can't Be Trusted With A Puppy In GTA VI"
-All clips: 1080x1920 @ 60fps, H.264/AAC, word-synced captions (Liberation Sans, Helvetica-metric), hook titles, timed SFX.
+All clips: 1080x1920 @ 60fps, H.264/AAC, word-synced captions (Liberation Sans/Helvetica-metric, outline-only), hook titles (no boxes), timed SFX, loudness-normalized dialogue. Redesigned per feedback.
 
 | # | File | Moment | Hook |
 |---|------|--------|------|
@@ -15,4 +15,4 @@ All clips: 1080x1920 @ 60fps, H.264/AAC, word-synced captions (Liberation Sans, 
 | 09 | 09_daycare_scene.mp4 | CPS/daycare scene | THEY'RE NOT RUNNING A DAYCARE |
 | 10 | 10_i_use_a_vpn.mp4 | Conspiracy rant punchline | I USE A VPN |
 
-Credit: Lacy. Each .txt sidecar has title + hashtags + credit. Covers: `NN_*_cover.jpg`. No drafts or temp renders included — raw exports only.
+Credit: Lacy. Each .txt sidecar has title + hashtags + credit. Covers: `NN_*_cover.jpg`.
